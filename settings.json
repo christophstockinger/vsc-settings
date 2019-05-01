@@ -34,7 +34,8 @@
   "emmet.includeLanguages": {
       "twig": "html",
       "nunjucks": "html",
-      "html": "html"
+      "html": "html",
+      "heml": "html"
   },
   "indentRainbow.colors": [
     "rgba(255,255,255,0.01)",
@@ -47,6 +48,7 @@
   "terminal.integrated.rendererType": "dom",
   "files.associations": {
     "*.html": "html",
+    "*.heml": "html",
     "*.njk": "nunjucks"
   },
   "files.exclude": {
@@ -76,14 +78,14 @@
     "editorLineNumber.activeForeground": "#00ae2f",
     "editorGroupHeader.noTabsBackground": "#0a0a0a",
     "editorGroupHeader.tabsBackground": "#0a0a0a",
-    "tab.activeBackground": "#282828",
-    "tab.border": "#282828",
-    "tab.activeBorder": "#282828",
+    "tab.activeBackground": "#0a0a0a",
+    "tab.border": "#0a0a0a",
+    "tab.activeBorder": "#0a0a0a",
     "tab.activeForeground": "#ffffff",
-    "tab.inactiveBackground": "#0a0a0a",
+    "tab.inactiveBackground": "#282828",
     "tab.inactiveForeground": "#ffffff",
-    "tab.hoverBackground": "#606060",
-    "tab.hoverBorder": "#606060",
+    "tab.hoverBackground": "#00ae2f",
+    "tab.hoverBorder": "#0a0a0a",
     "terminal.background": "#0a0a0a",
     "terminal.border": "#00ae2f",
     "terminal.foreground": "#FFFFFF",
@@ -94,5 +96,11 @@
     "input.background": "#0a0a0a",
     "input.foreground": "#FFFFFF"
   },
-  "workbench.colorTheme": "One Dark Pro"
+  "workbench.colorTheme": "One Dark Pro",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
